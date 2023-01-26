@@ -1,0 +1,120 @@
+@import url(reset.css);
+p {
+	color: coral;
+}
+.contents {
+	color: green;
+}
+.contents .section {
+	color: yellow;
+}
+[class*="__second"] {
+	color: blue;
+}
+[class*="__third"] {
+	color: brown;
+}
+.capitan > p{
+	color: cornflowerblue;
+}
+
+#maiden_voyage + p{
+	color: aquamarine;
+}
+
+#see_also ~ .links {
+	color: darkgreen;
+}
+.passengers,
+#passengers{
+	color: black;
+}
+.content-nesting__second {
+
+}
+.content-nesting__third {
+
+}
+.sections {
+	color: olive;
+}
+.general {
+}
+.background {
+}
+.dimension {
+}
+.features {
+}
+.power {
+}
+.sections-2 {
+	color: blueviolet;
+}
+.technology {
+}
+.sections-3 {
+	color: brown;
+}
+.pas__facilities {
+}
+.mail {
+}
+.lifeboats {
+}
+.building {
+}
+.construction {
+}
+.sea__trials {
+}
+.maiden__voyage {
+}
+.crew {
+}
+.passengers p {
+	color: tomato;
+}
+.collecting__passengers {
+}
+.athlantic__crossing {
+}
+.sinking {
+}
+.aftermath {
+}
+.immediate__aftermath {
+}
+.insurance {
+}
+.investigations {
+}
+.uss__californian {
+}
+.survivors__victims {
+}
+.retrieval {
+}
+.wreck {
+}
+.legacy {
+}
+.safety {
+}
+.cultural {
+}
+.north__ireland {
+}
+.replicas {
+}
+.see__also {
+}
+.links {
+}
+.comparable__disasters * {
+	color: chartreuse;
+}
+
+#crew{
+	color: orange;
+}
