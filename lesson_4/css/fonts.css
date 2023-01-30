@@ -1,0 +1,19 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,500,700,700italic&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Spicy+Rice:regular&display=swap);
+
+@font-face {
+	font-family: 'CircularStd';
+	src: url('../fonts/CircularStd-BoldItalic.woff2') format('woff2'),url('../fonts/CircularStd-BoldItalic.woff') format('woff');
+	font-weight: bold;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'CircularStd';
+	src: url('../fonts/CircularStd-Medium.woff2') format('woff2'),url('../fonts/CircularStd-Medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
