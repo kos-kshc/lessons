@@ -1,228 +1,239 @@
 @import url(reset.css);
-@import url(fonts.css);
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,500,700,700italic&display=swap);
+body{
+	font-family: 'Poppins';
+	background: rgba(94, 94, 94, 0.05);
+}
+main{
+	margin: 0 auto;
+}
+.wrapper,
+.block1 {
+	padding: 0px 100px;
+	margin: 0 auto;
+	max-width: 1440px;
+}
+.text1,
+.text2,
+.text3 {
+	margin: 0 auto 70px;
+	max-width: 816px;
+}
+h1,
+h2{
+	color: #212529;
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 1.6;
+	max-width: 50%;
+	margin: 0px 0px 40px 0px;
+}
+h2{
+	max-width: 75%;
+}
+.paragraph {
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 1.78;
+	color: #6C757D;
+	margin: 0px 0px 25px 0px;
+}
 img{
 	max-width: 100%;
 }
-
-body{
-	font-family: Jost;
-	color: #171717;
+.photo2 img{
+	max-width: 50%;
 }
-.wrapper{
-	background-color: rgb(236, 236, 222);
-	padding: 0px 30px;
-
+.photo1,
+.photo2 {
+	margin: 0px 0px 80px 0px;
+	font-size: 0;
 }
-
-header{
-	text-transform: uppercase;
-}
-header:after {
-	content: "";
-	display: block;
-	margin: 0 auto;
-	width: 90%;
-	height: 2px;
-	background-color: rgb(188, 186, 186);
-}
-.block{
+.boat{
+	padding: 0px 15px 0px 0px;
 
 }
-.block__row{
-	display: flex;
-	height: 100px;
-	/* padding: 30px; */
-	font-size: 14px;
+.island{
+	padding: 0px 0px 0px 15px;
 }
 
-.block__column{
-	display: flex;
-	flex-basis: 33.3%;
-	align-self: center;
+.block1 {
+	min-height: 500px;
+	padding: 36px 100px 0px 100px;
+	background: url("/img/unsplash_ndN00KmbJ1c.jpg") 0 0 no-repeat;
+	margin: 0px 0px 80px 0px;
 }
-
-.block__column-1{
-	display: flex;
-	justify-content: space-around;
-
-	
-
-}
-.block__column-2{
-	display: flex;
-	justify-content: center;
-	font-size: 26px;
-
-
-}
-.block__column-3{
-	display: flex;
-	justify-content: end;
-	gap: 5%;
-
-
-}
-.menu-item{
-	flex-grow: 1;
-}
-.menu-item:hover{
-	display: block;
-	border-bottom:1px solid #171717;
-	
-}
-
-.slogan{
-	font-family: Cormorant;
-	text-align: center;
-	font-size: 80px;
-	line-height: 1.2;
-	margin: 0px 0px 0.5rem 0px;
-}
-
-.market-block__row {
+.header {
+	}
+.header__row {
 	display: flex;
 	justify-content: space-between;
-	width: 100%;
-	max-height: 580px;
-}
-.market-block__column {
+	}
+.header__column {
 	display: flex;
-	max-width: 33.3%;
-	flex-shrink: 1;
+	}
+.header__item {
+	margin: 0px 25px 0px 0px;
 
-}
-
-.market-block__item {
-	display: flex;
-	flex-direction: column;
-	margin: 0px 0px 1rem 0px;
-
-
-}
-.photo-name {
-	text-align: center;
-	text-transform: uppercase;
-	font-size: 18px;
-	line-height: 1.5;
-	letter-spacing: 0.1em;
-}
-.photo-name p{
+	}
+.vence {
 	font-weight: 700;
-	font-family: Jost;
-}
-.arrows{
-	height: 50px;
-	display: flex;
-	justify-content: center;
-	flex-flow: row nowrap;
-	width: 100%;
-	margin: 0px 0px 100px 0px;
-}
-
-.rect {
-	display: flex;
-	margin: 0rem 1rem;
-	justify-content: center;
-	width: 2px;
-	height: 50px;
-	background: url('/img/Rectangle.svg') 0 0 no-repeat;
-}
-.brect{
-	width: 60px;
-	height: 50px;
-	background: url('/img/Vector_left.svg') 0 0 no-repeat;
-}
-.brect:hover{
-	width: 60px;
-	height: 50px;
-	background: url('/img/Vector_hover-left.svg') 0 0 no-repeat;
-}
-.arect{
-	width: 60px;
-	height: 50px;
-	background: url('/img/Vector_right.svg') 0 0 no-repeat;
-}
-.arect:hover{
-	width: 60px;
-	height: 50px;
-	background: url('/img/Vector_hover-right.svg') 0 0 no-repeat;
-}
-
-.rare__block {
-	max-width: 60%;
-	margin: 0 auto;
-}
-.rare__block-1 {
-	font-weight: 400;
-	font-size: 52px;
-	line-height: 1.2;
-	text-align: center;
-	font-family: 'Cormorant';
-	text-transform: uppercase;
-	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-	margin: 0px 0px 10px 0px;
-}
-.rare__block-2 {
-	margin: 0 auto	;
-	max-width: 80%;
-	font-weight: 300;
-	text-align: center;
-	font-size: 16px;
-	line-height: 164%;
-}
-.rare__block-3 {
-
-}
-.rare__row {
-	display: flex;
-	margin: 0 auto;
-	max-width: 70%;
-	justify-content: space-around;
-}
-.rare__column {
-	text-transform: uppercase;
-	margin: 0px 0px 150px 0px;
-
-}
-.amount{
-
-	font-style: normal;
-	font-weight: 400;
-	font-size: 52px;
-	line-height: 75px;
-	text-align: center;
-	letter-spacing: 0.02em;
-}
-.nft{
-	font-weight: 400;
 	font-size: 18px;
+	line-height: 1.38;
+	color: #F8F9FA;
+	margin: 0px 0px 164px 0px;
+}
+.second {
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 2.08;
+	color: rgba(248, 249, 250, 0.5);
+}
+.vector1::after{
+	/* It is needed to fix this and make the vector display itself */
+	content: '';
+	background: url(/img/Vector.jpg)0 0 no-repeat;
+}
+.inspiration{
+	padding-bottom: 125px;
 	text-align: center;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 1.66;
+	color: #E5E5E5;
+}
+.creat {
+	word-spacing: 10px;
+	margin: 0px 0px 15px 0px;
+}
+.like {
+	max-width: 500px;
+	margin: 0 auto 15px;
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 1.6;
+	color: #F8F9FA;
+}
+.cred p{
+	display: inline-block;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 1.66;
+	color: #6C757D;
+	margin: 0px 25px 15px 0px;
+}
+p.name{
+	font-weight: 700;
+}
+.buttons {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 8px;
+	line-height: 2.5;
+	text-align: center;
+	color: #6C757D;
+	max-width: 816px;
+	margin: 0 auto 100px;
+}
+.buttons__row {
+	display: flex;
+	justify-content: space-between;
+}
+.buttons__column {
+	display: flex;
+}
+.buttons__item {
+	margin: 0px 15px 0px 0px;
+	padding: 2px 13px;
+	border: 1px solid #C4C4C4;
+	border-radius: 3px;
+}
+.share{
+	border: 0px;
+	background: url(/img/software-upload.svg) 1px 7px no-repeat;
+}
+.news{
+	background: rgba(94, 94, 94, 0.05);
+	padding: 100px;
+}
+.latest{
+	font-weight: 500;
+	font-size: 25px;
+	line-height: 0.8;
+	color: #495057;
+	margin: 0px 0px 60px 0px;
+}
+.articles {
+}
+.articles__row {
+	display: flex;
+	justify-content: space-between;
+	gap: 15px;
+	flex-wrap: wrap;
+}
+.articles__column {
+	flex-grow: 1;
+}
+.articles__item {
+}
+.articles__item-row {
+	display: flex;
+	gap: 15px;
+	
+}
+.articles__item-column img {
+	max-height: 200px;
+	max-width: 200px;
+}
+.categories {
+	text-transform: capitalize;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 1.67;
+	color: #495057;
+	margin: 0px 0px 15px 0px;
+}
+.news-text {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.56;
+	color: #212529;
+}
+footer{
+	background-color: #212529;
+	padding: 100px;
+	min-height: 325px;
+	color: rgba(248, 249, 250, 0.5);
+}
+span{
+	color:#DDBEA9;
+}
+.footer__row .vence{
+	margin: 0;
+}
+.footer__container {
+}
+.footer__row {
+	display: flex;
+	justify-content: space-between;
+}
+.footer__column {
+}
+.top {
+}
+.vence {
+}
+.bottom {
+}
+.row1{
+	margin: 0px 0px 40px 0px;
+	padding: 0px 0px 40px 0px;
+	border-bottom: 1px solid rgba(229, 229, 229, 0.2);;
+}
+.row2{
 
 }
-.some-block__title{
-	font-family: 'Cormorant';
-	font-weight: 400;
-	font-size: 52px;
-	line-height: 1.2;
-	text-align: center;
-	letter-spacing: 0.02em;
-	text-transform: uppercase;
-	margin: 0px 0px 0.8rem 0px;
-}
-.some-block__row {
-	display: flex;
-}
-.some-block__column {
-	display: flex;
-}
-.some-block__item {
-}
-.photo-block {
-}
-.photo-name {
-}
-.view__collection {
-}
-.view__collection:hover{
-	text-decoration: underline;
+a{
+	display: inline-block;
+	margin-right: 25px;
 }
