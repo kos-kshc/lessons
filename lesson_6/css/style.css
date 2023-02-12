@@ -20,7 +20,6 @@ h2{
 }
 .wrapper{
 	padding: 20px 7%;
-	background-color: f;
 }
 img{
 	width: 100%;
@@ -29,12 +28,12 @@ img{
 	max-width: 66%;
 	margin: 0 auto 80px;
 }
-.paragraph {
-	font-weight: 300;
-   font-size: 14px;
-   line-height: 1.78;
-   color: #6C757D;
-	margin: 0px 0px 30px 0px;
+.paragraph {	
+   	font-weight: 300;
+   	font-size: 14px;
+   	line-height: 1.78;
+   	color: #6C757D;
+   	margin: 0px 0px 30px 0px;
 }
 .photo1,
 .photo2 {
@@ -54,8 +53,27 @@ img{
 }
 .double-photo1 {
 	padding-right: 1%;
+	border-radius: 50%;
 }
 .double-photo2 {
 	padding-left: 1%;
+	border-radius: 50%;
 }
+.shadow{
+	opacity: 0.5;
+	box-shadow: 5px 5px 15px 5px grey;
+}
+.border{
+	display: inline-block;
+	padding: 10px;
+	border: 5px solid yellowgreen;
+	border-radius: 15px;
+	margin: 0px 20px 0px 0px;
 
+}
+.outline{
+	display: inline-block;
+	padding: 10px;
+	outline: 5px dashed yellowgreen;
+	border-radius: 10px;
+}
