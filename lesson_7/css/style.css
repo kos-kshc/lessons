@@ -1,0 +1,106 @@
+@import url(reset.css);
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,500,700&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Inter:300,600,700&display=swap);
+body{
+	font-family: 'Inter' sans-serif;
+}
+
+.block1{
+	font-family: 'Poppins' sans-serif;
+	background: url('../img/background1.jpg') 0 0 no-repeat;
+	width: 100%;
+	min-height: 600px;
+	background-size: cover;
+}
+
+.header-text{
+	padding: 330px 0px 0px 100px;
+}
+.date,
+.history {
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 1.6;
+	color: #E5E5E5;
+	margin-bottom: 15px;
+}
+.slogan {
+	margin-bottom: 15px;
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 40px;
+	color: #F8F9FA;
+}
+
+.block2 {
+	padding: 20px 0px;
+	background: url('../img/repeat.jpg');
+	color: #fff;
+}
+.list{
+	max-width: 300px;
+	margin:0 auto 30px;
+}
+.list li{
+	margin-bottom: 15px;
+	padding: 2px 5px 0px 30px;
+	min-height: 25px;
+}
+.list1{
+	border-radius: 10px;
+
+}
+.list1 li {
+	background: url('../img/blue_dot.svg') 0 5px no-repeat;
+	padding-left: 18px;
+}
+.list2 li{
+	background: url('../img/red_cross.svg') 0 1px no-repeat;
+	
+}
+.list3 li{
+	background: url('../img/blue_tick.svg') 0 1px no-repeat;
+}
+.list4 li{
+	background: url('../img/arrow_right.svg') 0 1px no-repeat;
+}
+.list5 li{
+	background: url('../img/green_tick.svg') 0 1px no-repeat;
+}
+.list6 li{
+	background: url('../img/star.svg') 0 1px no-repeat;
+}
+.block3{
+	min-height: 560px;
+	background: url('../img/speaker.jpg') 80% 50% no-repeat,linear-gradient(115deg, rgba(244,247,255,0) 60%, rgba(48,86,211,0.08) 60%, rgba(244,247,255,0) 100%), linear-gradient(115deg, rgba(244,247,255,0) 67%, rgba(48,86,211,0.08) 67%, rgba(244,247,255,0) 100%) #F4F7FF;
+	padding: 145px 135px 0px;
+}
+.price {
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 1.5;
+	color: #3056D3;
+	margin-bottom: 13px;
+}
+.name {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.25;
+	color: #212B36;
+	margin-bottom: 15px;
+}
+.description {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: #637381;
+	margin-bottom: 35px;
+}
+.btn{
+	padding: 10px 30px;
+	background: #3056D3;
+	border-radius: 30px;
+	min-height: 44px;
+	max-width: 140px;
+	color: #ffffff;
+}
