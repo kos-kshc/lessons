@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/style.css">
+	<title>Task0</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<h1>Задача 0</h1>
+		<p class="task">Обчислити значення виразів</p>
+		<ul id="zero">
+		</ul>
+	</div>
+	<script async>
+		//Вводимо необхідні дані
+		let a = parseFloat(prompt('Please fill a value'))
+		let b = parseFloat(prompt('Please fill b value'))
+		let c = parseFloat(prompt('Please fill c value'))
+
+		//Знаходимо результат
+		let s1 = a + 12 + b
+		let s2 = Math.sqrt((a + b) / (2 * a))
+		let s3 = Math.pow((a + b) * c, 1 / 3)
+		let s4 = Math.sin(a / -b)
+
+		//Виводямо результат
+		let zeroTask = document.getElementById('zero')
+		zeroTask.innerHTML += `<li class="zero1">Дано: a = ${a}, b = ${b}, c = ${c};</li>`
+		zeroTask.innerHTML += `<li class="zero"><img src="../img/1.png" alt="">Result = ${s1}</li>`
+		zeroTask.innerHTML += `<li class="zero"><img src="../img/2.png" alt="">Result = ${s2}</li>`
+		zeroTask.innerHTML += `<li class="zero"><img src="../img/3.png" alt="">Result = ${s3}</li>`
+		zeroTask.innerHTML += `<li class="zero"><img src="../img/4.png" alt="">Result = ${s4}</li>`
+	</script>
+</body>
+
+</html>

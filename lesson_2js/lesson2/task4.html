@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/style.css">
+	<title>task4</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<h1>Задача 4</h1>
+		<p class="task">
+			Дано довжину у сантиметрах. Визначати скільки це метрів і кілометрів.
+		</p>
+		<div id="result">
+
+		</div>
+
+	</div>
+	<script>
+		//Вводимо необхідні дані
+		let cm = parseFloat(prompt('Введіть довжину в сантиметрах:'))
+
+		//Знаходимо реузльтат
+		let m = cm / 100
+		let km = cm / 100000
+
+		//Виводимо результат
+		let task4 = document.getElementById('result')
+		task4.innerHTML += `<p> ${cm}см дорівнює ${m} метрів.</p>`
+		task4.innerHTML += `<p> ${cm}см дорівнює ${km} кілометрів.</p>`
+	</script>
+
+</body>
+
+</html>

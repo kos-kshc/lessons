@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/style.css">
+	<title>Task5</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<h1>Задача 5</h1>
+		<p class="task">
+			Дано кількість секунд, що пройшла від початку доби. Визначити скільки це годин і хвилин.
+		</p>
+		<div id="result">
+
+		</div>
+	</div>
+	<script>
+		//Вводимо необхідні дані
+		let sec = parseInt(prompt('Введіть кількість секунд:'))
+
+		//Знаходимо результат
+		let hours = Math.floor(sec / 3600)
+		let mins = Math.floor(sec % 3600 / 60)
+
+		//Виводимо результат
+		let task5 = document.getElementById('result')
+		task5.innerHTML += `<p>Від початку доби пройшло ${hours} годин ${mins} хвилин</p>`
+	</script>
+
+
+</body>
+
+</html>

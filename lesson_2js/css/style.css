@@ -1,0 +1,79 @@
+@import url('./reset.css');
+body{
+	padding: 10px;
+	font-size: 40px;
+}
+.wrapper{
+	padding: 50px;
+	max-width: 90%;
+	margin: 0 auto;
+	border: 5px solid green;
+	border-radius: 20px;
+}
+h1,
+h2,
+.task{
+	margin: 0px 0px 30px 0px;
+	font-size: 50px;
+	color: green;
+}
+img{
+	width: 300px;
+	margin-right: 30px;
+}
+.zero1{
+	margin-bottom: 30px;
+}
+.task1__row {
+	display: inline-flex;
+}
+.task1__item{
+	border: 5px solid grey;
+	padding: 15px;
+}
+.result6 {
+	border: 3px solid grey;
+	padding: 15px;
+	border-radius: 15px;
+	max-width: 250px;
+	margin: 0 auto;
+	background-color: rgb(189, 193, 155);
+	color: rgb(37, 33, 33);
+	font-size: 24px;
+}
+.result__row {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+.result__column {
+	display: flex;
+	flex-wrap: wrap;
+}
+.result__item{
+}
+.total{
+	justify-content:center;
+	margin-bottom: 0px;
+}
+.result {
+	border: 3px solid grey;
+	padding: 15px;
+	border-radius: 15px;
+	max-width: 500px;
+	background-color: rgb(189, 193, 155);
+	color: rgb(37, 33, 33);
+	font-size: 24px;
+}
+
+a{
+	display: block;
+	max-width: 300px;
+	margin: 20px;
+	color: olive;
+	border: 2px solid grey;
+	border-radius: 15px;
+	background-color: lightgrey;
+	padding: 10px;
+	text-align: center;
+}
