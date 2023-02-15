@@ -1,0 +1,42 @@
+@import url('./reset.css');
+body{
+	padding: 10px;
+}
+.wrapper{
+	height: 100%;
+	padding: 50px;
+	border: 3px solid red;
+	border-radius: 15px;
+	background: url('../img/repeat.jpg') 0 0;
+}
+h1{
+	margin: 0px auto 50px;
+	font-size: 40px;
+	color: wheat;
+	max-width: 50%;
+	text-align: center;
+}
+h2{	
+	color: wheat;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+a{
+	padding: 5px;
+	text-align: center;
+	font-size: 24px;
+	display: block;
+	margin: 0px 0px 30px 0px;
+	max-width: 200px;
+	background-color: yellowgreen;
+	color: red;
+	border-radius: 10px;
+}
+.tasks{
+	margin: 0 auto;
+	max-width: 200px;
+}
+#answer{
+	color: wheat;
+	font-size: 20px;
+}
