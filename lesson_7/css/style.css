@@ -44,7 +44,7 @@ body{
 }
 .list li{
 	margin-bottom: 15px;
-	padding: 2px 5px 0px 30px;
+	padding: 3px 5px 0px 30px;
 	min-height: 25px;
 }
 .list1{
@@ -60,16 +60,16 @@ body{
 	
 }
 .list3 li{
-	background: url('../img/blue_tick.svg') 0 1px no-repeat;
+	background: url('../img/blue_tick.svg') 0 0 no-repeat;
 }
 .list4 li{
-	background: url('../img/arrow_right.svg') 0 1px no-repeat;
+	background: url('../img/arrow_right.svg') 0 0 no-repeat;
 }
 .list5 li{
-	background: url('../img/green_tick.svg') 0 1px no-repeat;
+	background: url('../img/green_tick.svg') 0 0 no-repeat;
 }
 .list6 li{
-	background: url('../img/star.svg') 0 1px no-repeat;
+	background: url('../img/star.svg') 0 0 no-repeat;
 }
 .block3{
 	min-height: 560px;
