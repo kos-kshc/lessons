@@ -2,13 +2,12 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins:300,500,700&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Inter:300,600,700&display=swap);
 body{
-	font-family: 'Inter' sans-serif;
+	font-family: 'Inter';
 }
 
 .block1{
-	font-family: 'Poppins' sans-serif;
+	font-family: 'Poppins';
 	background: url('../img/background1.jpg') 0 0 no-repeat;
-	width: 100%;
 	min-height: 600px;
 	background-size: cover;
 }
@@ -17,18 +16,20 @@ body{
 	padding: 330px 0px 0px 100px;
 }
 .date,
-.history {
+.history{
 	font-weight: 300;
 	font-size: 12px;
 	line-height: 1.6;
 	color: #E5E5E5;
+}
+.history {
 	margin-bottom: 15px;
 }
 .slogan {
 	margin-bottom: 15px;
 	font-weight: 700;
 	font-size: 25px;
-	line-height: 40px;
+	line-height: 1.6;
 	color: #F8F9FA;
 }
 
