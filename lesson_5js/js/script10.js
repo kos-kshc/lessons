@@ -13,7 +13,7 @@ if (firstUserValue > secondUserValue) {
 sum = 0;
 for (
   let i = firstUserValue + 1;
-  i > firstUserValue && i < secondUserValue;
+  i < secondUserValue;
   i++
 ) {
   if (i % 2 != 0) {
