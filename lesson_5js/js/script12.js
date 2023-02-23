@@ -13,19 +13,19 @@ for (let pos = 0; pos < 3; pos++) {
   switch (randomNunmber) {
     case 1:
       firstImgCounter = firstImgCounter + 1;
-      document.write(`<img class="img12" src="img/apple.svg">`);
+      document.write(`<img class="img12" src="../img/apple.svg">`);
       break;
     case 2:
       secondImgCounter = secondImgCounter + 1;
-      document.write(`<img class="img12" src="img/lemon.svg">`);
+      document.write(`<img class="img12" src="../img/lemon.svg">`);
       break;
     case 3:
       thirdImgCounter = thirdImgCounter + 1;
-      document.write(`<img class="img12" src="img/carrot.svg">`);
+      document.write(`<img class="img12" src="../img/carrot.svg">`);
       break;
     case 4:
       fourthImgCounter = fourthImgCounter + 1;
-      document.write(`<img class="img12" src="img/orange.svg">`);
+      document.write(`<img class="img12" src="../img/orange.svg">`);
       break;
   }
 }
