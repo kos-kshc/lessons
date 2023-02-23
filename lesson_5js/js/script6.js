@@ -1,6 +1,6 @@
 //Задача 6. Вивести 3 таблиці (по 3 рядки і 3 стовпці у кожній) за зразком
 document.write(
-  `<p>Ці таблиці треба вивести за допомогою циклів</p><img class="task6-img" src="/img/task6.png" alt="">`
+  `<p>Ці таблиці треба вивести за допомогою циклів</p><img class="task6-img" src="../img/task6.png" alt="">`
 );
 let k = 1;
 document.write(`<div>`);
