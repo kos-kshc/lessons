@@ -1,6 +1,6 @@
 //Задача 5. Вивести таблицю
 document.write(
-  `<p>Цю таблицю треба вивести за допомогою циклів</p><img class="task5-img" src="/img/task5.png" alt="">`
+  `<p>Цю таблицю треба вивести за допомогою циклів</p><img class="task5-img" src="../img/task5.png" alt="">`
 );
 let k = 1;
 document.write(`<table>`);
