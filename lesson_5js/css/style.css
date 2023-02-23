@@ -1,0 +1,75 @@
+@import url("./reset.css");
+body {
+  padding: 50px;
+  border-radius: 15px;
+  background: url("../img/repeat.jpg") 0 0;
+  color: wheat;
+}
+.wrapper {
+  padding-bottom: 40px;
+}
+
+h2 {
+  color: wheat;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+a,
+button {
+  padding: 5px;
+  text-align: center;
+  font-size: 24px;
+  display: block;
+  margin: 0px 0px 30px 0px;
+  max-width: 200px;
+  background-color: yellowgreen;
+  color: red;
+  border-radius: 10px;
+}
+.tasks {
+  margin: 0 auto;
+  max-width: 200px;
+}
+#answer {
+  color: wheat;
+  font-size: 20px;
+}
+#mark-list li {
+  margin-bottom: 10px;
+}
+#mark-list li::before {
+  display: inline-block;
+  content: "";
+  background-color: wheat;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin: 0px 10px 3px 0px;
+}
+p {
+  margin: 0px 0px 10px 0px;
+  color: white;
+}
+input {
+  margin-left: 10px;
+  color: black;
+  padding-left: 5px;
+  border-radius: 5px;
+}
+table tr td {
+  color: wheat;
+  font-size: 40px;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 5px;
+}
+.task6-table {
+  display: inline-block;
+  margin: 0px 20px;
+}
+.task7-img {
+  max-width: 200px;
+}
+.img12 {
+  max-width: 200px;
+}
