@@ -1,0 +1,65 @@
+@import url(reset.css);
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,500,700&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Inter:300,600,700&display=swap);
+
+.icons,
+.content-images {
+  background-color: cadetblue;
+  padding: 40px;
+  color: white;
+  font-size: 40px;
+  min-height: 100%;
+}
+.icons p,
+.design-features p,
+.content-images,
+.icons div {
+  margin-bottom: 40px;
+}
+.other-icons img {
+  margin-right: 10px;
+}
+.design-features {
+  background-color: aquamarine;
+  padding: 40px;
+  color: white;
+  font-size: 40px;
+  min-height: 100%;
+}
+.ellipses {
+  background-color: #1234a6;
+  margin: 10px 0px 10px 0px;
+}
+.content-images img {
+  border-radius: 25px;
+}
+.image__container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+.image__container img {
+  width: 100%;
+}
+.section1,
+.section2,
+.section3,
+.section4 {
+  font-size: 0px;
+  margin-bottom: 10px;
+}
+.section1 img,
+.section4 img {
+  max-width: 33.333%;
+  padding: 0px 10px 10px 0px;
+}
+.section2 img,
+.section3 img {
+  max-width: 25%;
+  padding-right: 10px;
+}
+.content-images img:hover {
+  opacity: 0.5;
+}
+.section3 img:first-child {
+  border-radius: 50%;
+}
