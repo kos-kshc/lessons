@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/style.css">
+	<title>Task 5</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<h2>
+			Задача 5 <br>Умова:<br>
+			Створити окремі функції, які переводять:<br>
+			Сантиметри у дюйми;<br>
+			Кілограми у фунти;<br>
+			Кілометри у милі.
+		</h2>
+	</div>
+</body>
+<script>
+	//Отримувємо вхідні дані від користувача
+	let centimetersFromUser = parseInt(prompt('Введіть відстань у сантиметрах'))
+	let kilogramsFromUser = parseInt(prompt('Введіть кількість кілограмів'))
+	let kilometersFromUser = parseInt(prompt('Введіть відстань у кілометрах'))
+	//Створюємо функції для виконання завдання
+	function centimetersToInches(cm) {
+		return (cm * 0.39).toFixed(2)
+	}
+	function kilogramsToPounds(kg) {
+		return (kg * 2.20).toFixed(2)
+	}
+	function kilometersToMiles(km) {
+		return (km * 0.62).toFixed(2)
+	}
+	//Виводимо результат на сторінку
+
+	document.write(
+		`<p>${centimetersFromUser} сантиметрів дорівнюють ${centimetersToInches(centimetersFromUser)} дюймів</p>
+		<p>${kilogramsFromUser} кілограмів дорівнюють ${kilogramsToPounds(kilogramsFromUser)} фунтів</p>
+		<p>${kilometersFromUser} кілометрів дорівнюють ${kilometersToMiles(kilometersFromUser)} миль</p>`)
+</script>
+
+</html>

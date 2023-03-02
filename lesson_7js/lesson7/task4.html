@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/style.css">
+	<title>Task 4</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<h2>
+			Задача 4 <br>Умова:<br>Створити функцію, яка для 3 заданих чисел знаходить одночасно декілька результатів:
+			кількість парних, кількість
+			додатних, кількість більших за 100.
+		</h2>
+	</div>
+</body>
+<script>
+	//Отримувємо вхідні дані від користувача
+	let firstNumber = parseInt(prompt('Введіть перше число'))
+	let secondNumber = parseInt(prompt('Введіть друге число'))
+	let thirdNumber = parseInt(prompt('Введіть третє число'))
+	//Створюємо функцію для виконання завдання
+
+	function getNeededValues(num1, num2, num3) {
+		let evenValuesNumber = 0, positiveValuesNumber = 0, over100ValuesNumber = 0
+		//Знаходимо кількість парних чисел
+		for (let i = 0; i < arguments.length; i++) {
+			if (arguments[i] % 2 === 0)
+				evenValuesNumber = evenValuesNumber + 1
+		}
+		//Знаходимо кількість додатних чисел
+		for (let i = 0; i < arguments.length; i++) {
+			if (arguments[i] > 0)
+				positiveValuesNumber = positiveValuesNumber + 1
+		}
+		//Знаходимо кількість чисел, які більші за 100
+		for (let i = 0; i < arguments.length; i++) {
+			if (arguments[i] > 100)
+				over100ValuesNumber = over100ValuesNumber + 1
+		}
+		let result = `<p>Кількість парних чисел:${evenValuesNumber}<p>
+			<p>Кількість додатних чисел:${positiveValuesNumber}<p>
+			<p>Кількість чисел більших за 100:${over100ValuesNumber}<p>`
+		return result
+	}
+	//Виводимо результат на сторінку
+	document.write(getNeededValues(firstNumber, secondNumber, thirdNumber))
+</script>
+
+</html>

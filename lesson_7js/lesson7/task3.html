@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/style.css">
+	<title>Task 3</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<h2>
+			Задача 3 <br>Умова:<br>Створити окремі функції, які для 4 чисел знаходять:<br>
+			1)суму;<br>
+			2)добуток;<br>
+			3)середнє арифметичне;<br>
+			4)мінімальне значення.<br>
+		</h2>
+	</div>
+</body>
+<script>
+	//Отримувємо вхідні дані від користувача
+	let firstNumber = parseInt(prompt('Введіть перше число'))
+	let secondNumber = parseInt(prompt('Введіть друге число'))
+	let thirdNumber = parseInt(prompt('Введіть третє число'))
+	let fourthNumber = parseInt(prompt('Введіть четверте число'))
+	//Створюємо функції для виконання завдання
+	function sum(num1, num2, num3, num4) {
+		return num1 + num2 + num3 + num4
+	}
+	function multiplication(num1, num2, num3, num4) {
+		return num1 * num2 * num3 * num4
+	}
+	function averageValue(num1, num2, num3, num4) {
+		return (num1 + num2 + num3 + num4) / 4
+	}
+	function minValue(num1, num2, num3, num4) {
+		let firstVal, secondVal, minVal
+		num1 < num2 ? firstVal = num1 : firstVal = num2
+		num3 < num4 ? secondVal = num3 : secondVal = num4
+		firstVal < secondVal ? minVal = firstVal : minVal = secondVal
+		return minVal
+	}
+	//Виводимо результат на сторінку
+	document.write(`
+	Сума 4 чисел дорівнює ${sum(firstNumber, secondNumber, thirdNumber, fourthNumber)}<br>
+	Добуток 4 чисел дорівнює ${multiplication(firstNumber, secondNumber, thirdNumber, fourthNumber)}<br>
+	Середнє арифметичне 4 чисел дорівнює ${averageValue(firstNumber, secondNumber, thirdNumber, fourthNumber)}<br>
+	Мінімальне значення 4 чисел дорівнює ${minValue(firstNumber, secondNumber, thirdNumber, fourthNumber)}
+	`)
+</script>
+
+</html>

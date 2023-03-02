@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/style.css">
+	<title>Task 9</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<h2>
+			Задача 9 <br>Дано покази температур (довільна кількість). Розробити функцію, яка дозволить підрахувати кількість
+			від’ємних показів температури.
+		</h2>
+	</div>
+</body>
+<script>
+	let array1 = [1, -10, -22, 22, 1, 11, -13, -33, 88, -9, 90, 40, -4, -4, 4, -2]
+	//Створюємо функцію для виконання завдання
+	function getBelowZeroValues() {
+		let belowZeroValuesNumber = 0
+		for (let i = 0; i < arguments.length; i++) {
+			if (arguments[i] < 0)
+				belowZeroValuesNumber = belowZeroValuesNumber + 1
+		}
+		return belowZeroValuesNumber
+	}
+	//Виводимо результат на сторінку
+	document.write(`Кількість від'ємних показів температур дорівнює ${getBelowZeroValues(...array1)}`)
+</script>
+
+</html>
