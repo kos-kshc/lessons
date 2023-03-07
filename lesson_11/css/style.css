@@ -199,6 +199,7 @@ main {
   line-height: 24px;
   text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.24);
   color: #ffffff;
+  margin-bottom: 21px;
 }
 .item-fashion-sub__content button {
   color: #ffffff;
