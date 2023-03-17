@@ -1,4 +1,8 @@
 @import url(reset.css);
+.wrapper {
+  max-width: 1900px;
+  overflow: hidden;
+}
 .car__body {
   transform: translate(80%, 300px);
   animation-iteration-count: 3;
