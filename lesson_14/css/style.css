@@ -81,11 +81,10 @@ img {
   line-height: 1.67;
   color: #495057;
   display: flex;
-  flex: 0 1 33.3%;
+  flex: 1 1 33.3%;
   flex-direction: column;
   padding: 0px 15px;
-}
-.card__body {
+  justify-content: space-between;
 }
 .card__img {
   position: relative;
@@ -93,7 +92,6 @@ img {
   overflow: hidden;
 }
 .card__img img {
-  overflow: hidden;
   transition: all 1s ease 0s;
 }
 .card__category-btn {
@@ -125,14 +123,9 @@ img {
 }
 .card__info {
   margin-bottom: 15px;
-}
-.card__info::after {
-  content: "";
-  display: block;
-  margin-top: 15px;
-  width: 100%;
-  height: 1px;
-  background-color: #e5e5e5;
+  flex-grow: 1;
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 15px;
 }
 .card__author {
 }
