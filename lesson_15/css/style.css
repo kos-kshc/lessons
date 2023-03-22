@@ -173,6 +173,6 @@ img {
   padding: 0px 16px;
   flex: 0 1 50%;
 }
-.gallery__item:nth-child(3) {
+.gallery__item:nth-child(3n) {
   flex: 0 1 100%;
 }
