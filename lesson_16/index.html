@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Lesson 16</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="adress">
+      <div class="adress__container">
+        <h2 class="adress__title">Shipping Address</h2>
+        <div class="adress__shipping shipping">
+          <div class="shipping__container">
+            <form action="#" class="shipping__form form-shipping" method="post" enctype="multipart/form-data">
+              <div class="form-shipping__email email-shipping">
+                <label class="email-shipping__label" for="shipping-email">Email Address <span
+                    class="required-field">*</span></label>
+                <input class="input-shipping" required type="email" name="shipping-email" id="shipping-email"
+                  placeholder="roni_cost@example.com">
+              </div>
+              <div class="form-shipping__password password-shipping">
+                <label class="password-shipping__label" for="shipping-password">Password</label>
+                <input class="input-shipping" type="password" id="shipping-password" name="shipping-password"
+                  placeholder="******************">
+              </div>
+              <div class="form-shipping__code code-shipping">
+                <label class="code-shipping__label" for="shipping-code">Zip/Postal Code</label>
+                <input minlength="5" maxlength="7" class="input-shipping" type="text" id="shipping-code"
+                  name="shipping-code">
+              </div>
+              <div class="form-shipping__login login-shipping">
+                <p class="login-shipping__welcome">You already have an account with us. Sign in or continue as guest.
+                </p>
+                <button type="submit" class="login-shipping__btn">login</button>
+                <a href="#" class="login-shipping__forgot">Forgot Your Password?</a>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="adress__reg reg">
+          <form action="#" class="reg__form form-reg" method="post" enctype="multipart/form-data">
+            <div class="form-reg__fname fname">
+              <label class="fname__label" for="fname">First Name <span class="required-field">*</span></label>
+              <input required class="input-user-info" type="text" name="fname" id="fname"
+                placeholder="Enter your first name">
+            </div>
+            <div class="form-reg__lname lname">
+              <label class="lname__label" for="lname">Last Name <span class="required-field">*</span></label>
+              <input required class="input-user-info" type="text" name="lname" id="lname"
+                placeholder="Enter your last name">
+            </div>
+            <div class="form-reg__company company">
+              <label class="company__label" for="company">Company</label>
+              <input class="input-user-info" type="text" name="company" id="company" placeholder="Enter your company">
+            </div>
+            <div class="form-reg__user-adress user-adress">
+              <label class="user-adress__label" for="user-adress1">Street Address <span
+                  class="required-field">*</span></label>
+              <div class="user-adress__container">
+                <input required class="input-user-info" type="text" name="user-adress1" id="user-adress1">
+                <input required class="input-user-info" type="text" name="user-adress2" id="user-adress2">
+                <input required class="input-user-info" type="text" name="user-adress3" id="user-adress3">
+              </div>
+            </div>
+            <div class="form-reg__country country">
+              <label class="country__label" for="country">Country <span class="required-field">*</span></label>
+              <input required class="input-user-info" type="text" name="country" id="country"
+                placeholder="Enter your country">
+            </div>
+            <div class="form-reg__state state">
+              <label class="state__label" for="state">State/ <span>Province</span> <span
+                  class="required-field">*</span></label>
+              <select required class="state__select" name="state" id="state">
+                <option value="" disabled selected>Please select a region, state or province</option>
+                <option value="zp">Zapirizhzhia</option>
+                <option value="dp">Dnipro</option>
+                <option value="kh">Kharkiv</option>
+                <option value="lv">Lviv</option>
+              </select>
+            </div>
+            <div class="form-reg__shipping shipping-radio">
+              <h2 class="shipping-radio__title">Shipping Methods</h2>
+              <div class="shipping-radio__methods">
+                <div class="shipping-radio__method method">
+                  <input checked class="method__radio" type="radio" name="shipping-method" id="shipping-method-1">
+                  <label class="method__label" for="shipping-method-1">$5.00</label>
+                  <label class="method__label" for="shipping-method-1">Fixed</label>
+                  <label class="method__label" for="shipping-method-1">Flat Rate</label>
+                </div>
+                <div class="shipping-radio__method method">
+                  <input class="method__radio" type="radio" name="shipping-method" id="shipping-method-2">
+                  <label class="method__label" for="shipping-method-2">$10.00</label>
+                  <label class="method__label" for="shipping-method-2">Table Rate</label>
+                  <label class="method__label" for="shipping-method-2">Best Way</label>
+                </div>
+                <div class="shipping-radio__method method">
+                  <input class="method__radio" type="radio" name="shipping-method" id="shipping-method-3">
+                  <label class="method__label" for="shipping-method-3">$15.00</label>
+                  <label class="method__label" for="shipping-method-3">Double-Table Rate</label>
+                  <label class="method__label" for="shipping-method-3">Worst Way</label>
+                </div>
+              </div>
+              <div class="shipping-radio__buttons">
+                <button type="submit" class="shipping-radio__button">next</button>
+                <button type="reset" class="shipping-radio__button back">back</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="billing">
+      <div class="billing__container">
+        <h2 class="billing__title">Billing Details</h2>
+        <form action="#" class="billing__form form-billing" method="post" enctype="multipart/form-data">
+          <div class="form-billing__user user-info">
+            <input required class="user-info__field" name="first-name" id="first-name" type="text"
+              placeholder="First name">
+            <input required class="user-info__field" name="last-name" id="last-name" type="text"
+              placeholder="Last name*">
+            <input required class="user-info__field" name="user-address" id="user-address" type="text"
+              placeholder="Addres line*">
+            <input class="user-info__field" name="user-address2" id="user-address2" type="text"
+              placeholder="Address line 2">
+            <select required class="user-info__field select-country" name="user-country" id="user-country">
+              <option value="" disabled selected> Country*</option>
+              <option value="us">USA</option>
+              <option value="uk">United Kingdom</option>
+              <option value="pl">Poland</option>
+              <option value="ua">Ukraine</option>
+            </select>
+            <input required class="user-info__field" name="user-city" id="user-city" type="text"
+              placeholder="City/Town*">
+            <input required class="user-info__field" name="user-post1" id="user-post1" type="text"
+              placeholder="Postcode / ZIP*">
+            <input required class="user-info__field" name="user-phone1" id="user-phone1" type="text"
+              placeholder="Phone*">
+            <input required class="user-info__field" name="user-post2" id="user-post2" type="text"
+              placeholder="Postcode / ZIP*">
+            <input required class="user-info__field" name="user-phone2" id="user-phone2" type="text"
+              placeholder="Phone*">
+            <textarea required class="user-info__field user-about" name="user-about" id="user-about"
+              placeholder="Additional information"></textarea>
+          </div>
+          <div class="form-billing__options">
+            <div class="form-billing__option option-billing">
+              <input checked class="option-billing__input" type="checkbox" name="user-option" id="create-account">
+              <label class="option-billing__label" for="create-account">Create account</label>
+            </div>
+            <div class="form-billing__option option-billing">
+              <input class="option-billing__input" type="checkbox" name="user-option" id="ship-different">
+              <label class="option-billing__label" for="ship-different">Ship to a different address?</label>
+            </div>
+          </div>
+          <div class="form-billing__coupon coupon">
+            <h3 class="coupon__title">Apply Coupon to get discount!</h3>
+            <div class="coupon__code code-coupon">
+              <input class="code-coupon__field" type="text" name="coupon-code" id="coupon-code"
+                placeholder="Coupon code.">
+              <button class="code-coupon__button" type="submit">Apply Code</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
