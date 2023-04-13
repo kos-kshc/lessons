@@ -569,6 +569,26 @@ img {
 }
 
 @media (max-width: 767.98px) {
+  .gallery-minimalist {
+    row-gap: 10px;
+    margin: 0px -5px;
+  }
+
+  .gallery-minimalist__item {
+    padding: 0px 5px;
+  }
+  .overview__data {
+    justify-content: space-between;
+  }
+  .minimalist__subtitle {
+    font-size: 16px;
+    max-width: 60%;
+    margin-bottom: 20px;
+  }
+  .minimalist__title {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
   .process__text p:not(:last-child) {
     margin-bottom: 10px;
   }
@@ -577,15 +597,6 @@ img {
   }
   .minimalist__main-img {
     margin-bottom: 50px;
-  }
-  .minimalist__subtitle {
-    font-size: 16px;
-    max-width: 55%;
-    margin-bottom: 40px;
-  }
-  .minimalist__title {
-    font-size: 46px;
-    margin-bottom: 20px;
   }
   .info-minimalist {
     flex-direction: column;
@@ -674,6 +685,9 @@ img {
 }
 
 @media (max-width: 500px) {
+  .gallery-minimalist {
+    flex-direction: column;
+  }
   .login__button,
   .buttons__button {
     padding: 12px 42px;
